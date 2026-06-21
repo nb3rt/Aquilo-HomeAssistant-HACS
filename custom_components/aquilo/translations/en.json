@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Aquilo",
+        "description": "Enter the IP address or hostname of your Aquilo device.",
+        "data": {
+          "host": "Host"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the device.",
+      "invalid_response": "The device returned an invalid response.",
+      "no_sensors": "The device responded but reported no sensors.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Aquilo options",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "lvl": { "name": "Level" },
+      "pct": { "name": "Percent full" },
+      "bat": { "name": "Battery" },
+      "days_left": { "name": "Days left" },
+      "lvl_to_full": { "name": "Distance to full" },
+      "last_read": { "name": "Last read" },
+      "last_emptied": { "name": "Last emptied" }
+    }
+  }
+}

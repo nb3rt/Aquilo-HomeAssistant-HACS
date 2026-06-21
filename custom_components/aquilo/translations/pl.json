@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Aquilo",
+        "description": "Podaj adres IP lub nazwę hosta urządzenia Aquilo.",
+        "data": {
+          "host": "Host"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie udało się połączyć z urządzeniem.",
+      "invalid_response": "Urządzenie zwróciło nieprawidłową odpowiedź.",
+      "no_sensors": "Urządzenie odpowiedziało, ale nie zgłosiło żadnych czujników.",
+      "unknown": "Nieoczekiwany błąd."
+    },
+    "abort": {
+      "already_configured": "To urządzenie jest już skonfigurowane."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opcje Aquilo",
+        "data": {
+          "scan_interval": "Interwał odświeżania (sekundy)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "lvl": { "name": "Poziom" },
+      "pct": { "name": "Zapełnienie" },
+      "bat": { "name": "Bateria" },
+      "days_left": { "name": "Dni do pełna" },
+      "lvl_to_full": { "name": "Do pełna" },
+      "last_read": { "name": "Ostatni odczyt" },
+      "last_emptied": { "name": "Ostatnie opróżnienie" }
+    }
+  }
+}

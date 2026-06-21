@@ -1,0 +1,12 @@
+{
+  "domain": "aquilo",
+  "name": "Aquilo",
+  "codeowners": ["@nb3rt"],
+  "config_flow": true,
+  "documentation": "https://github.com/nb3rt/Aquilo-HomeAssistant-HACS",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/nb3rt/Aquilo-HomeAssistant-HACS/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
